@@ -153,7 +153,7 @@ nav div{
     font-weight: bold;
     line-height: 100%;   
 }
-.box-texts p, .card p{
+.box-texts p, .card p ,.brain-container p{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -188,7 +188,7 @@ nav div{
     border: none;
     border-radius: 8px;
     padding: 24px;
-    height: fit-content;
+    height: 250px;
     
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
@@ -199,4 +199,41 @@ nav div{
     
     width: fit-content;
     margin: 0% auto;
+}
+
+.brain-container{
+    padding: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 55px;
+}
+.brain-container p{
+    width: 700px;
+    height: 60px;
+    
+}
+.brain-texts h2{
+    
+    font-weight:500;
+    color: #469165;
+}
+.box-texts h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+.list {
+  list-style: none;
+  align-items: center;
+  justify-content: left;
+  text-align:left;
+  
+}
+
+.list li::before {
+  content: "✔";
+  color: green;
+  margin-right: 10px;
+
 }
