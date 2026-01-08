@@ -55,8 +55,11 @@ nav div{
     text-align: center;
     padding: 70px 120px 134px 120px;
     background: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
     box-sizing: border-box;
     height: fit-content;
+    background-position: center center;
+    background-size: cover;
     
 }
 .poster button{
@@ -136,5 +139,64 @@ nav div{
     padding-top: 32px;
     
 }
+.box-texts{
+    /* display: flex; */
+    margin: 0% auto;
+    width: fit-content;
+    text-align: center;
+    padding: 50px;
+}
+
+.box-texts h1{
+   
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;   
+}
+.box-texts p, .card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+.card img{
+    background-color: #F95555;
+    border: none;
+    border-radius: 30px;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto;
+
+}
+.card h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 16px 0px;
+}
 
 
+
+.card{
+    margin: 0% auto;
+    width: 200px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    height: fit-content;
+    
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.card-container{
+    display: flex;
+    padding: 0px 120px;
+    gap: 24px;
+    
+    width: fit-content;
+    margin: 0% auto;
+}
