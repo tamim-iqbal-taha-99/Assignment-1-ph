@@ -117,7 +117,15 @@ nav div{
     font-size: 16px;
     font-weight: 600;
     display: flex;
+    transition: 1s;
+    cursor: pointer;;
     
+}
+.btn2:hover{
+     background-color: black;
+    color: #469165;
+
+
 }
 .btn3{
     border: 1px solid white;
@@ -129,6 +137,13 @@ nav div{
     justify-content: space-between;
     align-items: center;
     color: white;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.btn3:hover{
+     background-color: black;
+    color: #469165;
 
 }
 .btns{
@@ -139,6 +154,7 @@ nav div{
     padding-top: 32px;
     
 }
+
 .box-texts{
     /* display: flex; */
     margin: 0% auto;
@@ -153,7 +169,7 @@ nav div{
     font-weight: bold;
     line-height: 100%;   
 }
-.box-texts p, .card p ,.brain-container p ,.last-container p{
+.box-texts p, .card p ,.brain-container p ,.last-container p , .footer-container p{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -271,4 +287,31 @@ nav div{
 .last-texts{
     padding: 80px 40px;
     
+}
+
+.footer-container{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+    align-items: center;
+    margin-top: 80px;
+    
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contract h3{
+    color: white;
+}
+.contract i{
+    color: white;
+}
+.footer-container p{
+    border-top: 1px solid #E5E7EB;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: end;
+    padding-top: 30px;
 }
