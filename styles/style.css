@@ -1,0 +1,140 @@
+body{
+    background-color:#FFFFFF;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+nav div{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    padding: 24px 120px;
+
+}
+#navigation ul ,a{
+    list-style: none;
+    text-decoration: none;
+    /* background-color: black; */
+    color: black;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn{
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    justify-content: space-between;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: #469165;
+
+
+}
+.poster button:hover{
+     background-color: black;
+    color: #469165;
+
+
+}
+
+
+.poster-container{
+    /* background-color: aqua; */
+    align-items: center;
+    text-align: center;
+    padding: 70px 120px 134px 120px;
+    background: url(../images/hero-bg.png);
+    box-sizing: border-box;
+    height: fit-content;
+    
+}
+.poster button{
+    width: 229px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: none;
+    border-radius: 1000px;
+    padding: 0% 18px;
+    background-color: #FFFFFF;
+    color: #30B868;
+    font-size:16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #2ecc71;
+  border-radius: 100%;
+}
+
+.poster h1{
+    
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    align-items: center;
+    opacity: 90%;
+    padding: 16px 0px;
+}
+.poster p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.btn2 {
+    background-color: #469165;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    text-align:start;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    
+}
+.btn3{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: none;
+    padding: 12px 16px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+.btns{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin: 0% auto;
+    padding-top: 32px;
+    
+}
+
+
